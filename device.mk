@@ -25,9 +25,6 @@
 # Inherit from sony sm8450-common
 $(call inherit-product, device/sony/sm8450-common/common.mk)
 
-# Inherit from sony extra stuff
-$(call inherit-product-if-exists, vendor/sony/pdx223-extra/extra.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
