@@ -22,11 +22,11 @@
 # definition file).
 #
 
-# Inherit from sony sm8350-common
-$(call inherit-product, device/sony/sm8350-common/common.mk)
+# Inherit from sony sm8450-common
+$(call inherit-product, device/sony/sm8450-common/common.mk)
 
 # Inherit from sony extra stuff
-$(call inherit-product-if-exists, vendor/sony/pdx215-extra/extra.mk)
+$(call inherit-product-if-exists, vendor/sony/pdx223-extra/extra.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
@@ -47,4 +47,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx215/pdx215-vendor.mk)
+$(call inherit-product, vendor/sony/pdx223/pdx223-vendor.mk)
