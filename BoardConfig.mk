@@ -36,5 +36,7 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
+TARGET_OTA_ASSERT_DEVICE := pdx223,XQ-CT72,XQ-CT62,XQ-CT54,XQ-CT44,A201SO,SO-51C,SOG06
+
 # inherit from the proprietary version
 -include vendor/sony/pdx223/BoardConfigVendor.mk
