@@ -1,4 +1,19 @@
-# Stock package version: Sony/pdx223/pdx223:12/SKQ1.220714.001/1:user/release-keys
+# Stock package version: XQ-CT72_Customized SEA_64.1.A.0.882
+
+# Audio FX Modules
+vendor/etc/zoom_noise_reduction/znr_default_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_default_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_Front_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_Front_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_Logical_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_Logical_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Tele_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Tele_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_UWide_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_UWide_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Wide_44k.tbl
+vendor/etc/zoom_noise_reduction/znr_P_Wide_48k.tbl
+vendor/etc/zoom_noise_reduction/znr_parameter.xml
 
 # Camera
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
@@ -486,6 +501,8 @@ vendor/lib64/libsony_stab.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/local_libcamera_metadata.so
+vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
+vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
@@ -624,8 +641,111 @@ vendor/lib/libmmcamera_mfnr.so
 vendor/lib/libmmcamera_mfnr_t4.so
 vendor/lib/libmmcamera_pdpc.so
 
+# Display (HDR)
+vendor/etc/libhdr_somc.xml
+
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_1.json
+vendor/etc/displayconfig/display_id_130.xml
+
+# Graphics (Adreno firmware)
+vendor/firmware/a730_sqe.fw
+vendor/firmware/a730_zap.b00
+vendor/firmware/a730_zap.b01
+vendor/firmware/a730_zap.b02
+vendor/firmware/a730_zap.elf
+vendor/firmware/a730_zap.mbn
+vendor/firmware/a730_zap.mdt
+vendor/firmware/gmu_gen70000.bin
+
+# IPA firmware
+vendor/etc/init/ipa_fws.rc
+
+# WLAN
+vendor/etc/wifi/wifi_txpower.conf
+
+# Sensor configs
+vendor/etc/sensors/config/waipio_ak991x_0_somc_platform.json
+vendor/etc/sensors/config/waipio_ak991x_0_somc_product.json
+vendor/etc/sensors/config/waipio_lsm6dso_0_somc_product.json
+vendor/etc/sensors/config/waipio_somc_default_sensors.json
+vendor/etc/sensors/config/sns_device_orient_somc_platform.json
+
+# Other maybe needed firmware
+vendor/firmware/L-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/L-cs35l41-dsp1-spk-cali.wmfw
+vendor/firmware/L-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/L-cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/R-cs35l41-dsp1-spk-cali.bin
+vendor/firmware/R-cs35l41-dsp1-spk-cali.wmfw
+vendor/firmware/R-cs35l41-dsp1-spk-prot.bin
+vendor/firmware/R-cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l20.bin
+vendor/firmware/cs40l25a_a2h.bin
+vendor/firmware/cs40l25a_a2h.wmfw
+vendor/firmware/cs40l25a_a2h1.bin
+vendor/firmware/cs40l25a_a2h2.bin
+vendor/firmware/cs40l25a_a2h3.bin
+vendor/firmware/cs40l25a_cal.bin
+vendor/firmware/cs40l25a_cal.wmfw
+vendor/firmware/egista64.b00
+vendor/firmware/egista64.b01
+vendor/firmware/egista64.b02
+vendor/firmware/egista64.b03
+vendor/firmware/egista64.b04
+vendor/firmware/egista64.b05
+vendor/firmware/egista64.b06
+vendor/firmware/egista64.b07
+vendor/firmware/egista64.b08
+vendor/firmware/egista64.mdt
+vendor/firmware/evass-lt-21.b00
+vendor/firmware/evass-lt-21.b01
+vendor/firmware/evass-lt-21.b02
+vendor/firmware/evass-lt-21.b03
+vendor/firmware/evass-lt-21.b04
+vendor/firmware/evass-lt-21.b05
+vendor/firmware/evass-lt-21.b06
+vendor/firmware/evass-lt-21.b07
+vendor/firmware/evass-lt-21.b08
+vendor/firmware/evass-lt-21.b09
+vendor/firmware/evass-lt-21.b10
+vendor/firmware/evass-lt-21.b11
+vendor/firmware/evass-lt-21.b12
+vendor/firmware/evass-lt-21.b13
+vendor/firmware/evass-lt-21.b14
+vendor/firmware/evass-lt-21.b15
+vendor/firmware/evass-lt-21.b16
+vendor/firmware/evass-lt-21.b17
+vendor/firmware/evass-lt-21.b18
+vendor/firmware/evass-lt-21.b19
+vendor/firmware/evass-lt-21.mbn
+vendor/firmware/evass-lt-21.mdt
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+vendor/firmware/vpu20_1v.mbn
+vendor/firmware/vpu20_1v_unsigned.mbn
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
 
 # Touchscreen firmware
 vendor/firmware/touch_module_id_0x46.img
